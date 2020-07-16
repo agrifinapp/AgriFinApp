@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <item android:id="@+id/addCropItem"
+        android:title="Add Crop"
+
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/myCreditItem"
+        android:title="My Credits"
+
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/myMandiItem"
+        android:title="My Mandi"
+
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/PestisideItem"
+        android:title="search Pestiside"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/fertilizerItem"
+        android:title="search Fertilizer"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/equipementItem"
+        android:title="Search Equipement"
+
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/soilTestItem"
+        android:title="Soil Testing"
+        android:icon="@drawable/declineicon"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/weatherItem"
+        android:title="Weather"
+        android:icon="@drawable/declineicon"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/CiMapItem"
+        android:title="CiMap News"
+        android:icon="@drawable/declineicon"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/videosItem"
+        android:title="Videos"
+        android:icon="@drawable/declineicon"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/logoutItem"
+        android:title="Logout"
+        android:icon="@drawable/declineicon"
+        app:showAsAction="never"/>
+
+
+
+
+</menu>

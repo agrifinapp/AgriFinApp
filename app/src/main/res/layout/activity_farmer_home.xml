@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EBDEED"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvFarmerHomeChoose"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#F4E19C"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="Choose Your Crop Here"
+        android:textColor="#E4673F"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/tvFarmerHomeMentha"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="3dp"
+        android:background="#E69B9B"
+        android:gravity="center_vertical"
+        android:text="Mentha                       rs. 1180/kg"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tvFarmerHomeWheat"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="3dp"
+        android:background="#E69B9B"
+        android:gravity="center_vertical"
+        android:text="Wheat                        rs. 14.75/kg"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tvFarmerHomePotato"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="3dp"
+        android:background="#E69B9B"
+        android:gravity="center_vertical"
+        android:text="Potato                               ----"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tvFarmerHomeCotton"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="3dp"
+        android:background="#E69B9B"
+        android:gravity="center_vertical"
+        android:text="Cotton                        rs. 55/kg"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tvFarmerHomeSugarcane"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="3dp"
+        android:background="#E69B9B"
+        android:gravity="center_vertical"
+        android:text="Sugarcane                        ----"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp" />
+</LinearLayout>
