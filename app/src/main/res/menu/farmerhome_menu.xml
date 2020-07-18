@@ -20,7 +20,7 @@
         app:showAsAction="never"/>
 
     <item android:id="@+id/PestisideItem"
-        android:title="search Pestiside"
+        android:title="search Pesticide"
         app:showAsAction="never"/>
 
     <item android:id="@+id/fertilizerItem"
@@ -28,7 +28,7 @@
         app:showAsAction="never"/>
 
     <item android:id="@+id/equipementItem"
-        android:title="Search Equipement"
+        android:title="Search Equipment"
 
         app:showAsAction="never"/>
 

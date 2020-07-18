@@ -18,7 +18,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView8">
 
         <RadioButton
-            android:id="@+id/radioButton"
+            android:id="@+id/rbVender"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal|center_vertical"
@@ -26,14 +26,14 @@
             android:textSize="30sp" />
 
         <RadioButton
-            android:id="@+id/radioButton2"
+            android:id="@+id/rbEnerprise"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Enterprise"
             android:textSize="30sp" />
 
         <RadioButton
-            android:id="@+id/radioButton3"
+            android:id="@+id/rbBlogger"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Blogger"
@@ -42,15 +42,16 @@
 
     <TextView
         android:id="@+id/textView8"
-        android:layout_width="275dp"
+        android:layout_width="wrap_content"
         android:layout_height="47dp"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="16dp"
         android:background="#FFEB3B"
         android:gravity="center_horizontal"
-        android:text="Proceed as"
+        android:paddingLeft="4dp"
+        android:paddingEnd="4dp"
+        android:text="Choose to Proceed as"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.566"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

@@ -19,7 +19,7 @@
         android:id="@+id/linearlayout1">
 
         <ImageView
-            android:id="@+id/imageView"
+            android:id="@+id/ivMentha"
             android:layout_width="match_parent"
             android:layout_height="120dp"
             android:layout_weight="1"
@@ -47,7 +47,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="8"
                 android:background="#E5F1D7"
-                android:text="In the shown picture, these insect are eating the leaf of mentha and making holes. Suggest the best pestiside with price."
+                android:text="In the shown picture, these insect are eating the leaf of mentha and making holes. Suggest the best pesticides with price."
                 android:textSize="20sp" />
 
             <TextView
@@ -97,7 +97,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="8"
                     android:background="#E5F1D7"
-                    android:text="In the shown picture, these insect are eating the leaf of mentha and making holes. Suggest the best pestiside with price."
+                    android:text="In the shown picture, leaves of mentha are getting fade instead of being greener. Suggest the best pesticides with price."
                     android:textSize="20sp" />
 
                 <TextView

@@ -14,21 +14,21 @@ class OthersActivity:AppCompatActivity() {
 
 
         btnoOtherProceed.setOnClickListener(){
-            if (radioButton.isChecked){
+            if (rbVender.isChecked){
 
-                Toast.makeText(this@OthersActivity, radioButton.text.toString(), Toast.LENGTH_LONG).show()
+                Toast.makeText(this@OthersActivity, rbVender.text.toString(), Toast.LENGTH_LONG).show()
 
                 val signupIntent = Intent(this@OthersActivity, VenderActivity::class.java)
                 startActivity(signupIntent)
 
-            }else if (radioButton2.isChecked){
-                Toast.makeText(this@OthersActivity, radioButton2.text.toString(), Toast.LENGTH_LONG).show()
+            }else if (rbEnerprise.isChecked){
+                Toast.makeText(this@OthersActivity, rbEnerprise.text.toString(), Toast.LENGTH_LONG).show()
 
                 val signupIntent = Intent(this@OthersActivity, EnterpriseActivity::class.java)
                 startActivity(signupIntent)
 
-            }else if (radioButton3.isChecked){
-                Toast.makeText(this@OthersActivity, radioButton3.text.toString(), Toast.LENGTH_LONG).show()
+            }else if (rbBlogger.isChecked){
+                Toast.makeText(this@OthersActivity, rbBlogger.text.toString(), Toast.LENGTH_LONG).show()
 
 
                 val signupIntent = Intent(this@OthersActivity, BloggerActivity::class.java)

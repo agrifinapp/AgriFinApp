@@ -11,18 +11,18 @@
         android:id="@+id/edtLoginEmail"
         android:layout_width="0dp"
         android:layout_height="40dp"
-        android:layout_marginTop="52dp"
+        android:layout_marginTop="32dp"
         android:background="#DDD6EC"
         android:drawableLeft="@drawable/emailicon"
         android:ems="10"
-        android:hint="Please enter your email...."
+        android:hint="(No need in demo) Enter email...."
         android:inputType="textPersonName"
         android:textColor="#000"
         android:textSize="23sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+        app:layout_constraintTop_toBottomOf="@+id/tvInstruction" />
 
     <EditText
         android:id="@+id/edtLoginPassword"
@@ -32,7 +32,7 @@
         android:background="#DDD6EC"
         android:drawableLeft="@drawable/passwordicon"
         android:ems="10"
-        android:hint="Please enter your password...."
+        android:hint="(No need in demo) Enter password...."
         android:inputType="number"
         android:textColor="#000"
         android:textSize="23sp"
@@ -65,10 +65,10 @@
         app:layout_constraintTop_toBottomOf="@+id/btnLoginAsOthers" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/tvInstruction"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="40dp"
         android:background="#FFEB3B"
         android:gravity="center_horizontal"
         android:text="Just Click on Login As who..."

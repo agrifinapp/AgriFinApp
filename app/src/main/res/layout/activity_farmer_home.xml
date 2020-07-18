@@ -15,58 +15,155 @@
         android:textColor="#E4673F"
         android:textSize="40sp" />
 
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:orientation="horizontal"
+    android:layout_margin="3dp">
+
     <TextView
         android:id="@+id/tvFarmerHomeMentha"
-        android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:layout_margin="3dp"
-        android:background="#E69B9B"
-        android:gravity="center_vertical"
-        android:text="Mentha                       rs. 1180/kg"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#087EB3"
+        android:gravity="left"
+        android:text="Mentha"
         android:textColor="#FFFFFF"
         android:textSize="30sp" />
 
     <TextView
-        android:id="@+id/tvFarmerHomeWheat"
-        android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:layout_margin="3dp"
-        android:background="#E69B9B"
-        android:gravity="center_vertical"
-        android:text="Wheat                        rs. 14.75/kg"
-        android:textColor="#FFFFFF"
-        android:textSize="30sp" />
+        android:id="@+id/tvFarmerHomeMenthaRs"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#087EB3"
+        android:gravity="bottom|right"
+        android:text="1180/kg"
+        android:textColor="#2C0571"
+        android:textSize="20sp" />
+</LinearLayout>
 
-    <TextView
-        android:id="@+id/tvFarmerHomePotato"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="40dp"
-        android:layout_margin="3dp"
-        android:background="#E69B9B"
-        android:gravity="center_vertical"
-        android:text="Potato                               ----"
-        android:textColor="#FFFFFF"
-        android:textSize="30sp" />
+        android:orientation="horizontal"
+        android:layout_margin="3dp">
 
-    <TextView
-        android:id="@+id/tvFarmerHomeCotton"
-        android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:layout_margin="3dp"
-        android:background="#E69B9B"
-        android:gravity="center_vertical"
-        android:text="Cotton                        rs. 55/kg"
-        android:textColor="#FFFFFF"
-        android:textSize="30sp" />
+        <TextView
+            android:id="@+id/tvFarmerHomeWheat"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#087EB3"
+            android:gravity="left"
+            android:text="Wheat"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp" />
 
-    <TextView
-        android:id="@+id/tvFarmerHomeSugarcane"
+        <TextView
+            android:id="@+id/tvFarmerHomeWheatRs"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#087EB3"
+            android:gravity="bottom|right"
+            android:text="14.55/kg"
+            android:textColor="#2C0571"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="40dp"
-        android:layout_margin="3dp"
-        android:background="#E69B9B"
-        android:gravity="center_vertical"
-        android:text="Sugarcane                        ----"
-        android:textColor="#FFFFFF"
-        android:textSize="30sp" />
+        android:orientation="horizontal"
+        android:layout_margin="3dp">
+
+        <TextView
+            android:id="@+id/tvFarmerHomePotato"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#087EB3"
+            android:gravity="left"
+            android:text="Potato"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/tvFarmerHomePotatoRs"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#087EB3"
+            android:gravity="bottom|right"
+            android:text="--"
+            android:textColor="#2C0571"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:layout_margin="3dp">
+
+        <TextView
+            android:id="@+id/tvFarmerHomeCotton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#087EB3"
+            android:gravity="left"
+            android:text="Cotton"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/tvFarmerHomeCottonRs"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#087EB3"
+            android:gravity="bottom|right"
+            android:text="105.75/kg"
+            android:textColor="#2C0571"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:layout_margin="3dp">
+
+        <TextView
+            android:id="@+id/tvFarmerHomeSugarcane"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#087EB3"
+            android:gravity="left"
+            android:text="Sugarcane"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/tvFarmerHomeSugarcaneRs"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#087EB3"
+            android:gravity="bottom|right"
+            android:text="--"
+            android:textColor="#2C0571"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+
 </LinearLayout>
